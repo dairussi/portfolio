@@ -1,6 +1,8 @@
+![preview](image/readme.png)
+
 Projeto Portfólio
 
-[🔗 Clique aqui para acessar](https://maykbrito.github.io/nlw-esports-explorer/)
+[🔗 Clique aqui para acessar]()
 
 
 🛠 
