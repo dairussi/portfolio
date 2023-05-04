@@ -28,7 +28,8 @@
 
  .content,
  .skills,
- .holland {
+ .holland,
+ .portfolio {
      display: flex;
      flex-direction: row;
      justify-content: space-around;
@@ -60,10 +61,10 @@
  }
 
  .description-holland {
-     font-size: 14px;
+     font-size: 12px;
      text-align: center;
      line-height: 2;
-     font-weight: 300;
+     font-weight: 400;
      margin-left: 260px;
      margin-right: 260px;
 
@@ -83,6 +84,18 @@
      height: 80px;
  }
 
+
+ .job-one,
+ .job-two {
+     height: 200px;
+     right: 200px;
+     border-radius: 20px;
+ }
+
+ .job-one:hover,
+ .job-two:hover {
+     transform: scale(1.1);
+ }
 
  .index-header {
      display: flex;
