@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
     <title>Portfólio</title>
@@ -14,10 +14,17 @@
     <header class="index-header">
         <div class="name">Daiana Russi</div>
         <nav class="header-menu">
-            <a class="menu-item" href="index.html">Sobre</a>
-            <a class="menu-item" href="portfolio.html">Portfólio</a>
-            <a class="menu-item" href="skills.html">Habilidades</a>
-            <a class="menu-item" href="holland.html">Holland</a>
+            <div class="mobile-menu">
+                <div class="one-line"></div>
+                <div class="two-line"></div>
+                <div class="three-line"></div>
+            </div>
+            <ul class="nav-list">
+                <li><a class="menu-item" href="index.html">Sobre</a></li>
+                <li><a class="menu-item" href="portfolio.html">Portfólio</a></li>
+                <li><a class="menu-item" href="skills.html">Habilidades</a></li>
+                <li><a class="menu-item" href="holland.html">Holland</a></li>
+            </ul>
         </nav>
     </header>
 
@@ -44,6 +51,7 @@
                     src="image/email.png" alt="email"></a>
         </nav>
     </footer>
+    <script src="mobileMenu.js"></script>
 </body>
 
 </html>
